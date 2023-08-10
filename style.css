@@ -1,0 +1,31 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(photo-1571224237891-bfb45fcf0920.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+h1{
+    color: #fff;
+}
+a{
+    color: chartreuse;
+    text-decoration: none;
+}
+input{
+    width: 200px;
+}
